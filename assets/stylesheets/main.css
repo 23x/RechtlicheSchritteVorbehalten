@@ -1,0 +1,458 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+html {
+    line-height: 1;
+}
+
+ol,ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption,th,td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+q,blockquote {
+    quotes: none;
+}
+
+q:before,q:after,blockquote:before,blockquote:after {
+    content: "";
+    content: none;
+}
+
+a img {
+    border: none;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary {
+    display: block;
+}
+
+#description h3:before,#contact h3:before,#contact #wrapper-one h3:before,#contact #wrapper-tow h3:before,#contact #wrapper-three h3:before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    line-height: 1;
+}
+
+body {
+    line-height: 1.5;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    color: #444444;
+    font-size: 93.75%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    color: #ea6031;
+}
+
+h1 img,h2 img,h3 img,h4 img,h5 img,h6 img {
+    margin: 0;
+}
+
+h1 {
+    font-size: 3em;
+    line-height: 1;
+    margin-bottom: 0.50em;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-bottom: 0.75em;
+}
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1;
+    margin-bottom: 1.00em;
+}
+
+h4 {
+    font-size: 1.2em;
+    line-height: 1.25;
+    margin-bottom: 1.25em;
+}
+
+h5 {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 1.50em;
+}
+
+h6 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+p {
+    margin: 0 0 1.5em;
+}
+
+p .left {
+    display: inline;
+    float: left;
+    margin: 1.5em 1.5em 1.5em 0;
+    padding: 0;
+}
+
+p .right {
+    display: inline;
+    float: right;
+    margin: 1.5em 0 1.5em 1.5em;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    color: #ea6031;
+}
+
+a:visited {
+    color: #ea6031;
+}
+
+a:focus {
+    color: #6dafd6;
+}
+
+a:hover {
+    color: #6dafd6;
+}
+
+a:active {
+    color: #6dafd6;
+}
+
+blockquote {
+    margin: 1.5em;
+    color: #666666;
+    font-style: italic;
+}
+
+strong,dfn {
+    font-weight: bold;
+}
+
+em,dfn {
+    font-style: italic;
+}
+
+sup,sub {
+    line-height: 0;
+}
+
+abbr,acronym {
+    border-bottom: 1px dotted #666666;
+}
+
+del {
+    color: #666666;
+}
+
+code,tt {
+    font: 1em "andale mono", "lucida console", monospace;
+    line-height: 1.5;
+}
+
+li ul,li ol {
+    margin: 0;
+}
+
+ul,ol {
+    margin: 0 1.5em 1.5em 0;
+    padding-left: 1.5em;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+dl {
+    margin: 0 0 1.5em 0;
+}
+
+dl dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-left: 1.5em;
+}
+
+table {
+    margin-bottom: 1.4em;
+    width: 100%;
+}
+
+th {
+    font-weight: bold;
+}
+
+thead th {
+    background: #c3d9ff;
+}
+
+th,td,caption {
+    padding: 4px 10px 4px 5px;
+}
+
+table.striped tr:nth-child(even) td,table tr.even td {
+    background: #e5ecf9;
+}
+
+tfoot {
+    font-style: italic;
+}
+
+caption {
+    background: #eeeeee;
+}
+
+.quiet {
+    color: #777777;
+}
+
+.loud {
+    color: #222222;
+}
+
+html,body {
+    height: 100%;
+}
+
+#container {
+    clear: both;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin-bottom: -115px;
+}
+
+#container #footer-push {
+    height: 115px;
+}
+
+#footer {
+    clear: both;
+    position: relative;
+    height: 115px;
+}
+
+body {
+    background-color: #eeeeee;
+    background-image: url("../images/furley_bg-9bf24dde.png");
+}
+
+h2 { 
+    border-bottom: 1px solid #cccccc;
+    color: #ea6031;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 400px) {
+    h2 {
+        font-size: 1.5em;
+    };
+}
+
+h3 {
+    padding-top: 15px;
+}
+
+h4 { 
+    padding: 0;
+    margin: 0;
+}
+
+h1,h2,h3 {
+    font-family: 'Arvo', serif;
+}
+
+#main {
+    margin: 0 auto;
+    padding: 0 10px 100px 10px;
+    max-width: 960px;
+}
+
+header {
+    border-top: 5px solid #ea6031;
+    border-bottom: 1px solid #cccccc;
+    background-color: #f9f9f9;
+}
+
+header #header-content {
+    margin: 0 auto;
+    padding: 25px 10px 25px 10px;
+    max-width: 960px;
+}
+
+header #header-content h1 {
+    margin: 0;
+    font-size: 3.5em;
+}
+
+@media screen and (max-width: 510px) {
+    header #header-content h1 {
+        font-size: 3em;
+    };
+}
+
+@media screen and (max-width: 450px) {
+    header #header-content h1 {
+        font-size: 2.5em;
+    };
+}
+
+@media screen and (max-width: 380px) {
+    header #header-content h1 {
+        font-size: 2em;
+    };
+}
+
+header #header-content h1 a {
+    text-decoration: none;
+    margin: 0 auto;
+    color: black;
+}
+
+header #header-content h1 .logo-bold {
+    font-weight: bold;
+}
+
+header #header-content h1 .logo-protocol {
+    text-transform: lowercase;
+}
+
+header #header-content h1 .logo-protocol:after {
+    content: '.';
+    color: #ea6031;
+}
+
+footer {
+    height: 110px;
+    border-top: 5px solid #ea6031;
+    background-color: #444444;
+    background-image: url("../images/darkdenim3-e963c23a.png");
+}
+
+footer #footer-content {
+    margin: 0 auto;
+    padding: 40px 10px 0 10px;
+    max-width: 960px;
+    overflow: hidden;
+    *zoom: 1;
+    color: #cccccc;
+    font-size: 17px;
+}
+
+footer #footer-content a {
+    display: inline;
+    float: left;
+    margin-right: 30px;
+    color: #cccccc;
+}
+
+footer #footer-content span {
+    display: inline;
+    float: right;
+    font-style: italic;
+}
+
+#description h3:before {
+    content: "\f059";
+    padding-right: 25px;
+}
+
+#contact div.wrapper {
+    overflow: hidden;
+    *zoom: 1;
+}
+
+#contact h3:before {
+    content: "\f0ec";
+    padding-right: 25px;
+}
+
+@media screen and (min-width: 750px) {
+    #contact section {
+        display: inline;
+        float: left;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border-right: 1px solid #cccccc;
+        padding: 0 5%;
+        width: 36.66667%;
+        min-height: 130px;
+    }
+
+    #contact section:first-child,#contact section:last-child {
+        width: 31.66667%;
+    }
+
+    #contact section:first-child {
+        padding-left: 0;
+    }
+
+    #contact section:last-child {
+        padding-right: 0;
+        border-right: none;
+    };
+}
+
+#contact #wrapper-one h3:before {
+    content: "\f003";
+    padding-right: 25px;
+}
+
+#contact #wrapper-tow h3:before {
+    content: "\f09b";
+    padding-right: 25px;
+}
+
+#contact #wrapper-three h3:before {
+    content: "\f099";
+    padding-right: 25px;
+}
+
+.klangbrett { position: relative; margin: 0 auto; padding: 0; width: 960px; margin-top: 50px; }
+.klangbrett:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+@media only screen and (min-width: 768px) and (max-width: 960px) { .klangbrett { width: 768px; } }
+@media only screen and (max-width: 767px) { .klangbrett { width: 300px; } }
+@media only screen and (min-width: 480px) and (max-width: 767px) { .klangbrett { width: 420px; } }
+
+.sound { float: left; display: inline; margin-left: 10px; margin-right: 10px; width: 300px; }
+@media only screen and (max-width: 767px) { .sound { margin: 0; } }
+@media only screen and (min-width: 768px) and (max-width: 960px) { .sound { width: 236px; } }
+@media only screen and (max-width: 767px) { .sound { width: 300px; } }
+@media only screen and (min-width: 480px) and (max-width: 767px) { .sound { width: 420px; } }
+
+.sound { margin-bottom: 15px; text-align: center; }
+
+.text-over { border: 2px solid black; color: white; cursor: pointer; min-height: 40px; padding-top: 10px; background: #333; }
+
+.text-over:hover { background: #cc0000; }
+
+.clear { clear: both; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0; }
