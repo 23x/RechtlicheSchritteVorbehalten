@@ -453,6 +453,6 @@ footer #footer-content span {
 
 .text-over { border: 2px solid black; color: white; cursor: pointer; min-height: 40px; padding-top: 10px; background: #333; }
 
-.text-over:hover { background: #cc0000; }
+.text-over:hover { background: #e34e1b; }
 
 .clear { clear: both; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0; }
