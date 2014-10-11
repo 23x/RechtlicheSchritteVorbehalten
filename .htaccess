@@ -1,5 +1,9 @@
 RewriteEngine On
+
+RewriteCond %{HTTP:CF-Visitor} '"scheme":"http"'
+RewriteRule ^(.*)$ https://klangbrett.me/$1 [L]
+
 RewriteCond %{HTTP_HOST} ^www.klangbrett.me [NC]
-RewriteRule (.*) http://klangbrett.me/$1 [R=301,L]
+RewriteRule (.*) https://klangbrett.me/$1 [R=301,L]
 
 ErrorDocument 404 /404.html
